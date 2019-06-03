@@ -25,9 +25,5 @@ Route::get('/','PagesController@home');
 //        'foo'=>request('title')
 //     ]);
  // });
-Route::get('/contact',function(){
-    return view('contact');
-});
-Route::get('/about',function(){
-    return view('about');
-});
+Route::get('/contact','PagesController@contact');
+Route::get('/about','PagesController@about');

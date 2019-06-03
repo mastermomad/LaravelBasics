@@ -18,4 +18,12 @@ class PagesController extends Controller
             'tasks'=>$tasks
     	]);
     }
+
+    public function about(){
+    	return view('about');
+    }
+
+    public function contact(){
+    	return view('contact');
+    }
 }
