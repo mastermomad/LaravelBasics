@@ -24,7 +24,7 @@ Route::get('/','PagesController@home');
 //        'tasks'=>$tasks,
 //        'foo'=>request('title')
 //     ]);
- });
+ // });
 Route::get('/contact',function(){
     return view('contact');
 });
