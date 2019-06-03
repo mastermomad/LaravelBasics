@@ -11,15 +11,15 @@
 |
 */
 Route::get('/','PagesController@home');
-Route::get('/', function () {
+// Route::get('/', function () {
     
-    $tasks=[
-     'Go To Market',
-     'Go To Store',
-     'Go To Work'    
-    ];
+//     $tasks=[
+//      'Go To Market',
+//      'Go To Store',
+//      'Go To Work'    
+//     ];
 
-return view('welcome')->withTasks($tasks)->withFoo('My Website');
+// return view('welcome')->withTasks($tasks)->withFoo('My Website');
 //     return view('welcome',[
 //        'tasks'=>$tasks,
 //        'foo'=>request('title')
